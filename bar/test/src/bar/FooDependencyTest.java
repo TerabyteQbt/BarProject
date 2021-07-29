@@ -10,9 +10,10 @@ public class FooDependencyTest {
     @Test
     public void testFooDependency() throws Exception {
         // We expect foo to provide the list like this:
-        Assert.assertTrue(Constants.DEVS.size() == 2);
+        Assert.assertTrue(Constants.DEVS.size() == 3);
         Assert.assertTrue(Constants.DEVS.contains("amling"));
         Assert.assertTrue(Constants.DEVS.contains("cmyers"));
+        Assert.assertTrue(Constants.DEVS.contains("indeed2"));
     }
 }
 
